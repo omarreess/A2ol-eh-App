@@ -1,0 +1,22 @@
+<vector android:height="45dp" android:viewportHeight="512"
+    android:viewportWidth="512" android:width="45dp"
+    xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M512,395.1c0,64.6 -52.3,116.9 -116.9,116.9H116.9C52.3,512 0,459.7 0,395.1V117C0,52.4 52.4,0 117,0h276.3C458.9,0 512,53.1 512,118.7V395.1z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:centerX="149.96841"
+                android:centerY="551.63947"
+                android:gradientRadius="678.47614" android:type="radial">
+                <item android:color="#FFFFD87A" android:offset="0.0969388"/>
+                <item android:color="#FFFCCE78" android:offset="0.1426"/>
+                <item android:color="#FFF5B471" android:offset="0.2263"/>
+                <item android:color="#FFEB8D65" android:offset="0.3378"/>
+                <item android:color="#FFE36058" android:offset="0.449"/>
+                <item android:color="#FFCD3694" android:offset="0.6786"/>
+                <item android:color="#FF6668B0" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFFF" android:pathData="M327.2,70.6H184.8c-63.1,0 -114.3,51.2 -114.3,114.3v142.3c0,63.1 51.1,114.2 114.3,114.2h142.3c63.1,0 114.2,-51.1 114.2,-114.2V184.9C441.4,121.7 390.3,70.6 327.2,70.6zM405.8,313.5c0,51 -41.3,92.3 -92.3,92.3h-115c-51,0 -92.3,-41.3 -92.3,-92.3v-115c0,-51 41.3,-92.3 92.3,-92.3h115c51,0 92.3,41.4 92.3,92.3V313.5z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M261,159c-54,0 -97.7,43.7 -97.7,97.7c0,53.9 43.7,97.7 97.7,97.7c53.9,0 97.7,-43.7 97.7,-97.7C358.6,202.7 314.9,159 261,159zM261,315.4c-32.5,0 -58.8,-26.3 -58.8,-58.8c0,-32.5 26.3,-58.8 58.8,-58.8c32.4,0 58.8,26.3 58.8,58.8C319.7,289.1 293.4,315.4 261,315.4z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M376.7,157.5c0,13.7 -11.1,24.8 -24.8,24.8c-13.7,0 -24.8,-11.1 -24.8,-24.8c0,-13.7 11.1,-24.9 24.8,-24.9C365.6,132.6 376.7,143.7 376.7,157.5z"/>
+</vector>

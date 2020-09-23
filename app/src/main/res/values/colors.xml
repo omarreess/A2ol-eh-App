@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="offwhite">#F6EDCA</color>
+    <color name="blue">#465056</color>
+    <color name="white">#ffffff </color>
+
+    <color name="white_darker">#F1F1F1</color>
+    <color name="black">#F5000000</color>
+    <color name="grey">#504F4F</color>
+    <color name="pink_darker">#C54F65</color>
+    <color name="green_lighter">#7CAF7C</color>
+
+    <color name="pirpule">#846F82</color>
+
+</resources>

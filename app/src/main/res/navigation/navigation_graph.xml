@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.omaressam.a2oleh.UI.Splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_repliesTypesFragment"
+            app:destination="@id/repliesTypesFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/repliesTypesFragment"
+        android:name="com.omaressam.a2oleh.UI.RepliesTypes.RepliesTypesFragment"
+        android:label="fragment_replies_types"
+        tools:layout="@layout/fragment_replies_types" >
+        <action
+            android:id="@+id/action_repliesTypesFragment_to_repliesFragment"
+            app:destination="@id/repliesFragment" />
+        <action
+            android:id="@+id/action_repliesTypesFragment_to_devInfoFragment"
+            app:destination="@id/devInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repliesFragment"
+        android:name="com.omaressam.a2oleh.UI.Replies.RepliesFragment"
+        android:label="fragment_replies"
+        tools:layout="@layout/fragment_replies" >
+        <action
+            android:id="@+id/action_repliesFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/devInfoFragment"
+        android:name="com.omaressam.a2oleh.UI.DevInfo.DevInfoFragment"
+        android:label="fragment_dev_info"
+        tools:layout="@layout/fragment_dev_info" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.omaressam.a2oleh.UI.ShareApp.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+</navigation>

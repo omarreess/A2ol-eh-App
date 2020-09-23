@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wave"
+    tools:context=".UI.Replies.RepliesFragment">
+
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairolight"
+        android:gravity="center"
+        android:text="اقول ايه"
+        android:transitionName="logo_translate"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04000002" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9537713" />
+ 
+    <ImageButton
+        android:id="@+id/back_imgbtn"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back_btn"
+        android:layout_marginLeft="2dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_name"
+        app:layout_constraintEnd_toStartOf="@+id/logo_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/logo_name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:drawableRight="@drawable/shareicon"
+        android:text="Share App"
+         android:backgroundTint="@color/white_darker"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/cairosemibold"
+        android:textSize="12sp"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_name"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/logo_name"
+        app:layout_constraintStart_toStartOf="@+id/logo_name"
+        app:layout_constraintTop_toBottomOf="@+id/logo_name"
+        app:layout_constraintVertical_bias="0.045">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/female"
+
+             android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/pirpule"
+            android:fontFamily="@font/cairosemibold"
+            android:text="بنت"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="18dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/male"
+
+             android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/green_lighter"
+            android:fontFamily="@font/cairosemibold"
+            android:text="ولد"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="18dp" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_replies"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginBottom="50dp"
+        tools:listitem="@layout/reply_copy_item" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="215dp" />
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerloading"
+        android:layout_width="0dp"
+        android:visibility="invisible"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/list_replies">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_item" />
+
+
+            <include layout="@layout/shimmer_item" />
+
+            <include layout="@layout/shimmer_item" />
+
+            <include layout="@layout/shimmer_item" />
+
+
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

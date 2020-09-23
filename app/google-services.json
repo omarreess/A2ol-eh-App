@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734204734587",
+    "firebase_url": "https://a2oleh.firebaseio.com",
+    "project_id": "a2oleh",
+    "storage_bucket": "a2oleh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734204734587:android:ce2b24b3d8cb41bc3146de",
+        "android_client_info": {
+          "package_name": "com.omaressam.a2oleh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734204734587-eb5hcc3cuncpv80ctngh774rqv33s3rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBlhT_0xd2j25gE3DcthpzAtLdx5w5nck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734204734587-eb5hcc3cuncpv80ctngh774rqv33s3rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
