@@ -5,10 +5,10 @@ App for Replies and Comments for social media posts.
 https://play.google.com/store/apps/details?id=com.omaressam.a2oleh
 
 <p float="left">
-  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_1.png" width="210" />
-  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_2.png" width="210" /> 
-  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_3.png" width="210" /> 
-  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_4.png" width="210" /> 
+  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_1.png" width="190" />
+  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_2.png" width="190" /> 
+  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_3.png" width="190" /> 
+  <img src="https://github.com/omarreess/A2ol-eh-App/blob/master/screenshots/screenshot_4.png" width="190" /> 
 </p>
 
 
