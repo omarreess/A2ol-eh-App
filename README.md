@@ -22,6 +22,8 @@ Code Features :
  - UI Package contains packages of each ui component 
   ( like Home package have Home fragment screen , Home View , Home Contract and Home Presenter )
  - Data Package conatains Room Database layer and Whole data of app
+ - Bottom sheet dialog Fragment is used
+ - Share Feature for whatsapp , messenger , Linkedin and gmail.
  - Applied The single-responsibility principle  of OOD
  - Shimmer facebook library used for progress loading 
  - Layouts made with constraint layout 
