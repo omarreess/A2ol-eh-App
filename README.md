@@ -14,7 +14,7 @@ https://play.google.com/store/apps/details?id=com.omaressam.a2oleh
 
 
 Code Features :
- - It is written by Kotlin Programming language 
+ - It is written with Kotlin Programming language 
  - Whole threads in the app are Coroutines and managed by its scopes
  - App's Data stored in SqlLite Database mapped by Room DB
  - Screens are Fragments for re-usability managed by Navigation graph and app contains only one activity 
